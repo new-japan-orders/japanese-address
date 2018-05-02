@@ -1,6 +1,6 @@
 <?php
 
-namespace NewJapanOrders\Scaffold;
+namespace NewJapanOrders\JapaneseAddress;
 
 use Illuminate\Support\ServiceProvider as Provider;
 
