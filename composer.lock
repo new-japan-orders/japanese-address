@@ -1,0 +1,49 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4439e91f2d843ba99906c4e5a452ca3f",
+    "packages": [
+        {
+            "name": "new-japan-orders/stub",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/new-japan-orders/stub.git",
+                "reference": "f064613b6f723700aa9618061c824c145171dcfe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/new-japan-orders/stub/zipball/f064613b6f723700aa9618061c824c145171dcfe",
+                "reference": "f064613b6f723700aa9618061c824c145171dcfe",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "NewJapanOrders\\Stub\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2018-04-29T05:55:35+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,20 @@
+{
+  "name": "new-japan-orders/japanese-address",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "new-japan-orders/stub": "^1.0"
+  },  
+  "autoload": {
+    "psr-4": {
+      "NewJapanOrders\\JapaneseAddress\\": "src/"
+    }   
+  },  
+  "extra": {
+    "laravel": {
+        "providers": [
+            "NewJapanOrders\\JapaneseAddress\\ServiceProvider"
+        ]   
+    }   
+  }
+}
