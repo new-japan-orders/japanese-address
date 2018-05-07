@@ -1,0 +1,23 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use App\City;
+use Cities;
+
+class CitySeeder extends Seeder
+{
+    use Cities;
+
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        City::truncate();
+        foreach ($this->cities as $city) {
+            City::create($city);
+        }
+    }
+}

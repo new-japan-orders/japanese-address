@@ -19,7 +19,9 @@ class ServiceProvider extends Provider {
             __DIR__.'/stub/migrations/create_areas_table.stub' => base_path('database/migrations/'.$now.'create_areas_table.php'),
             __DIR__.'/stub/migrations/create_prefectures_table.stub' => base_path('database/migrations/'.$now.'create_prefectures_table.php'),
             __DIR__.'/stub/migrations/create_cities_table.stub' => base_path('database/migrations/'.$now.'create_cities_table.php'),
-            __DIR__.'/stub/migrations/create_towns_table.stub' => base_path('database/migrations/'.$now.'create_towns_table.php'),
+            __DIR__.'/stub/seeds/AreaSeeder.stub' => base_path('database/seeds/AreaSeeder.php'),
+            __DIR__.'/stub/seeds/PrefectureSeeder.stub' => base_path('database/seeds/PrefectureSeeder.php'),
+            __DIR__.'/stub/seeds/CitySeeder.stub' => base_path('database/seeds/CitySeeder.php'),
         ]);
     }   
 
