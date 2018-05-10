@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Prefecture;
+use NewJapanOrders\JapaneseAddress\Prefecture;
 
 class PrefectureSeeder extends Seeder
 {

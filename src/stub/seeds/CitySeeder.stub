@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\City;
-use Cities;
+use NewJapanOrders\JapaneseAddress\City;
+use NewJapanOrders\JapaneseAddress\Cities;
 
 class CitySeeder extends Seeder
 {

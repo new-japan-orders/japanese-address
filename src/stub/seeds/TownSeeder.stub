@@ -1,0 +1,23 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use NewJapanOrders\JapaneseAddress\Town;
+use NewJapanOrders\JapaneseAddress\Towns;
+
+class TownSeeder extends Seeder
+{
+    use Towns;
+
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        Town::truncate();
+        foreach ($this->towns as $town) {
+            Town::create($town);
+        }
+    }
+}
